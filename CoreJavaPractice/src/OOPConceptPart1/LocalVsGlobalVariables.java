@@ -25,7 +25,6 @@ public class LocalVsGlobalVariables {
 	public int sum() {
 		
 		int i = 15;
-		int j = 20;
 		return i;
 		
 	}
