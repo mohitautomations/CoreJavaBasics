@@ -23,8 +23,14 @@ public class ArrayListConcept {
 		ar.add("Hello");//6
 		ar.add(22.23);//7
 		ar.add('M');//8
-		
+		ar.add(900);//9
+				
 		System.out.println("Size of Array: "+ar.size());
+		
+		ar.remove(9);
+		
+		System.out.println(ar.size());
+		
 		
 		System.out.println("Array Value: "+ar.get(4));
 		
@@ -33,6 +39,12 @@ public class ArrayListConcept {
 		for(int i=0;i<ar.size();i++) {
 			System.out.println(ar.get(i));
 		}
+		
+		
+		ArrayList<Integer> ar1 = new ArrayList<Integer>();
+		ar1.add(100);
+		//ar1.add("TOM");
+		
 
 	}
 
