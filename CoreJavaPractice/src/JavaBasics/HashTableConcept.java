@@ -23,6 +23,11 @@ public class HashTableConcept {
 		
 		System.out.println(h1.get(1));
 		
+		System.out.println();
+		for (int j=0;j<h.size();j++) {
+			System.out.println(h.get(j));
+			
+		}
 		
 				
 		
